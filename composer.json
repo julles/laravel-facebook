@@ -5,6 +5,11 @@
     "require": {
         "facebook/php-sdk-v4": "^5.1"
     },
+    "autoload": {
+        "psr-4": {
+            "Reza\\": "Src/"
+        }
+    },
     "license": "MIT",
     "authors": [
         {

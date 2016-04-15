@@ -7,7 +7,7 @@ class RezaProvider extends ServiceProvider
 {
 	public function boot()
 	{
-		include  __DIR__."/vendor/autoload.php";
+		include  __DIR__."/../vendor/autoload.php";
 
 		$this->publishes([__DIR__.'/FacebookConfig.php' => config_path('FacebookConfig.php')]  , 'fb');
 	}
