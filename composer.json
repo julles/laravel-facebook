@@ -1,0 +1,16 @@
+{
+    "name": "muhamadrezaar/facebook",
+    "description": "Laravel5 Facebook",
+    "type": "Library",
+    "require": {
+        "facebook/php-sdk-v4": "^5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhamad Reza Abdul Rohim",
+            "email": "reza.wikrama3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
