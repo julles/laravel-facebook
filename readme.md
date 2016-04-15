@@ -8,13 +8,13 @@
 
 ### Cara instal 
 
-1.Tambahkan ke composer
+Tambahkan ke composer
 
 ```sh
 composer require muhamadrezaar/facebook:"dev-master"
 ```
 
-2. Register Provider dan Facade di config/app.php
+Register Provider dan Facade di config/app.php
 
 ```sh
 Reza\RezaProvider::class,
@@ -24,13 +24,13 @@ Reza\RezaProvider::class,
 'FB'=> Reza\RezaFacade::class,
 ```
 
-3. Publish konfigurasi
+Publish konfigurasi
 
 ```sh
 php artisan vendor:publish
 ```
 
-4. resgistrasi aplikasi facebokk anda di config/FacebookConfig.php
+resgistrasi aplikasi facebokk anda di config/FacebookConfig.php
 
 ```sh
 <?php
@@ -44,7 +44,7 @@ return [
 
 ### Dokumentasi
 
-1.Menggenerate Url Authorize Facebook
+Menggenerate Url Authorize Facebook
 
 ```sh
 <?php
