@@ -48,7 +48,23 @@ Menggenerate Url Authorize Facebook
 
 ```sh
 <?php
-echo \FB::generateUrlLogin();
+Route::get('login' , function(){
+	@session::start();
+	echo "<a href = '".\FB::generateUrlLogin(url('dapet'))."'>Login</a>";
+});
+
+```
+
+Mendapatkan hasil callback login facebook
+
+```sh
+<?php
+Route::get('dapet' , function(){
+		@session_start();
+		$dapet = \FB::getCallBack();
+		dd($dapet);
+});
+
 ```
 
 
